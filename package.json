@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-learning",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mastering Nodejs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "start": "node index.js",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "jest": "^29.7.0",
+    "standard": "^17.1.2"
+  }
+}
